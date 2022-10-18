@@ -24,7 +24,7 @@ body:Column(
     Container(
       alignment: Alignment.center,
       height: 40,
-      margin: EdgeInsets.only(top: 50,right: 30),
+      margin: EdgeInsets.only(top: 120,right: 30),
       decoration: BoxDecoration(
         gradient: LinearGradient(colors: [Color.fromARGB(255, 1, 54, 29),Colors.greenAccent]),
         color: Colors.green,
