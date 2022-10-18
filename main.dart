@@ -184,12 +184,12 @@ body:Column(
     Container(
       alignment: Alignment.center,
       height: 40,
-      margin: EdgeInsets.only(top: 50,right: 30),
+      margin: EdgeInsets.only(top: 150,right: 30),
       decoration: BoxDecoration(
         gradient: LinearGradient(colors: [Color.fromARGB(255, 1, 54, 29),Colors.greenAccent]),
         color: Colors.green,
         borderRadius: BorderRadius.only(
-         
+         topLeft: Radius.circular(30),
          topRight: Radius.circular(30),
         bottomRight: Radius.circular(30)
         )
